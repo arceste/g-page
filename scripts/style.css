@@ -5,15 +5,31 @@ ul#navbar{
 	width:			100%;
 }
 
+/*
+div#navbar{
+	margin-top:		20px;
+}*/
+
+
 li {
 	display: 		inline;
-
+	font-size:		10pt;
+	font-family:		arial, sans-serif;
 }
+
 
 div.leftalign{
 	float:			left;
+	margin:			7px 0 0 10px;
 }
 
 div.rightalign{
 	float:			right;	
+	margin:			7px 10px 0 0;
+}
+
+a{
+	text-decoration:	none;
+	margin-left:		10px;
+	margin-right:		10px;
 }

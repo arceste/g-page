@@ -1,35 +1,42 @@
+/*navbar*/
 ul#navbar{
-	list-style: 		none;
-	margin:			0;
-	padding:		0;
-	width:			100%;
+	list-style: 		  none;
+	margin:			      0;
+	padding:	      	0;
 }
 
-/*
-div#navbar{
-	margin-top:		20px;
-}*/
-
+div#navbar {
+  float:            left;
+  width:            100%;
+}
 
 li {
-	display: 		inline;
-	font-size:		10pt;
-	font-family:		arial, sans-serif;
+	display: 		      inline;
+	font-size:		    10pt;
+	font-family:		  arial, sans-serif;
 }
 
 
 div.leftalign{
-	float:			left;
-	margin:			7px 0 0 10px;
+	float:			      left;
+	margin:			      7px 0 0 10px;
 }
 
 div.rightalign{
-	float:			right;	
-	margin:			7px 10px 0 0;
+	float:			      right;	
+	margin:			      7px 10px 0 0;
 }
+
+/* Logo */
+div#logo { 
+  clear:            both;
+  text-align:       center;
+  padding-top:      109px;
+}
+
 
 a{
 	text-decoration:	none;
-	margin-left:		10px;
-	margin-right:		10px;
+	margin-left:		  10px;
+	margin-right:		  10px;
 }

@@ -1,4 +1,10 @@
 /*navbar*/
+div#navbar a{
+	text-decoration:	none;
+	margin-left:		  10px;
+	margin-right:		  10px;
+}
+
 ul#navbar{
 	list-style: 		  none;
 	margin:			      0;
@@ -34,9 +40,49 @@ div#logo {
   padding-top:      109px;
 }
 
-
-a{
-	text-decoration:	none;
-	margin-left:		  10px;
-	margin-right:		  10px;
+/*Search Bar*/
+div#sbar {
+  margin-top:       20px;
 }
+
+div#sbox {
+  margin:           0 auto;
+  height:           44px;
+  width:            35%;
+  border-style:     solid;
+  border-radius:    44px;
+  border-color:     #cccccc;
+  border-width:     1px;
+  display:          flex;
+}
+
+#magsearch {
+  margin-left:      15px;
+  margin-top:       5px;  
+  margin:           5px 20px 0 15px;
+  flex:             auto;
+}
+#phonovoice {
+  margin:           5px 15px 0 0;
+  flex:             auto;
+}
+#inputsearch {
+  flex:             100%;
+  display:          flex;
+  border-width:     0px;
+  padding-right:    50px;
+}
+#inputsearch input {
+  flex: 100%;
+  border-width: 0px;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+div#sbox:hover {
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+}
+
+

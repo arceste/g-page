@@ -1,5 +1,5 @@
 /*navbar*/
-div#navbar a{
+div.navbar a{
 	text-decoration:	none;
 	margin-left:		  10px;
 	margin-right:		  10px;
@@ -7,11 +7,11 @@ div#navbar a{
 
 ul#navbar{
 	list-style: 		  none;
-	margin:			      0;
+	margin-top:	      7;
 	padding:	      	0;
 }
 
-div#navbar {
+div.navbar {
   float:            left;
   width:            100%;
 }
@@ -23,14 +23,14 @@ li {
 }
 
 
-div.leftalign{
+.leftalign{
 	float:			      left;
-	margin:			      7px 0 0 10px;
+	margin-left:			10px;
 }
 
-div.rightalign{
+.rightalign{
 	float:			      right;	
-	margin:			      7px 10px 0 0;
+	margin-right:	    10px;
 }
 
 /* Logo */
@@ -41,10 +41,10 @@ div#logo {
 }
 
 /*Search Bar*/
-div#sbar {
+div.sbar {
   margin-top:       20px;
+  display:          flex;
 }
-
 div#sbox {
   margin:           0 auto;
   height:           44px;
@@ -62,16 +62,19 @@ div#sbox {
   margin:           5px 20px 0 15px;
   flex:             auto;
 }
+
 #phonovoice {
   margin:           5px 15px 0 0;
   flex:             auto;
 }
+
 #inputsearch {
   flex:             100%;
   display:          flex;
   border-width:     0px;
   padding-right:    50px;
 }
+
 #inputsearch input {
   flex: 100%;
   border-width: 0px;
@@ -79,10 +82,37 @@ div#sbox {
   font-size: 16px;
 }
 
-div#sbox:hover {
+div#sbox:focus {
   -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 2px 2px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 2px 2px rgba(0,0,0,0.15);
+ 
 }
 
+div#sbox:hover {
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow:    0px 0px 2px 2px rgba(0,0,0,0.15);
+  box-shadow:         0px 0px 2px 2px rgba(0,0,0,0.15);
+}
 
+.buttons {
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+  height: 88px;
+}
+
+.b1 {
+  width: 130px;
+  height: 35px;
+  margin: 20px 4px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+}
+
+.b1:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+}
